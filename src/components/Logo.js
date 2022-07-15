@@ -13,6 +13,7 @@ const Logo = () => {
           <Image style={imgStyles} src={logo} alt="logo" />
         </Col>
       </Row>
+      <Row><h4 style={{ color: "#00C2CB" }}>Membership apps, that is fully yours.</h4></Row>
     </Container>
   )
 }
