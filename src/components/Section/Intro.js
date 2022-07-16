@@ -5,7 +5,7 @@ import logo from '../../assets/logo-only.svg'
 
 const section = ({ flexDirection }) => {
   return (
-    <div className="section" style={{ flexDirection: flexDirection }}>
+    <div className="section" style={{ flexDirection: flexDirection, "background": "linear-gradient(#ffffff, #9198e5)"}}>
       <div className="left-container">
       <Image style={imgStyles} src={logo} alt="logo" />
       </div>
