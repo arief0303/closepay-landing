@@ -2,12 +2,14 @@ import React from "react";
 import { Image } from 'react-bootstrap'
 import "./Section.css";
 import logo from '../../assets/logo-only.svg'
+import mockup from '../../assets/mockup.png'
 
 const section = ({ flexDirection }) => {
   return (
     <div className="section" style={{ flexDirection: flexDirection, "background": "linear-gradient(#ffffff, #9198e5)"}}>
       <div className="left-container">
-      <Image style={imgStyles} src={logo} alt="logo" />
+      {/* <Image style={imgStyles} src={logo} alt="logo" /> */}
+      <Image style={imgStyles}src={mockup} alt="logo" />
       </div>
 
       <div className="right-container">
@@ -28,7 +30,7 @@ const section = ({ flexDirection }) => {
 };
 
 const imgStyles = {
-  height: '19vmin',
+  height: '85vmin',
   
 }
 
